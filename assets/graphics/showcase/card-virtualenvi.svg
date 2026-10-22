@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0F1D"/>
+      <stop offset="100%" stop-color="#0F1E24"/>
+    </linearGradient>
+    <linearGradient id="emeraldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+    <pattern id="cardGrid4" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="280" rx="12" fill="url(#cardBg4)"/>
+  <rect width="640" height="280" rx="12" fill="url(#cardGrid4)"/>
+  <rect x="1" y="1" width="638" height="278" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0" y="0" width="640" height="3" rx="1" fill="url(#emeraldGradient)"/>
+
+  <!-- Left Information Column -->
+  <g transform="translate(36, 40)">
+    <rect width="175" height="20" rx="4" fill="#0F172A" stroke="#10B981" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="8" cy="10" r="2.5" fill="#34D399"/>
+    <text x="16" y="14" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#6EE7B7" letter-spacing="1">FRONTEND &amp; MOTION UI</text>
+
+    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">
+      VirtualEnvi Experience
+    </text>
+
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">
+      Fluid Micro-Interactions &amp; Netlify Cloud Delivery
+    </text>
+
+    <!-- Key Metrics Pills -->
+    <g transform="translate(0, 102)">
+      <rect width="105" height="22" rx="4" fill="#1E293B"/>
+      <text x="8" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#10B981">LIVE: NETLIFY</text>
+
+      <rect x="113" width="92" height="22" rx="4" fill="#1E293B"/>
+      <text x="121" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#38BDF8">REACT.JS</text>
+
+      <rect x="213" width="85" height="22" rx="4" fill="#1E293B"/>
+      <text x="221" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#C084FC">FRAMER</text>
+    </g>
+
+    <!-- Stack Summary -->
+    <g transform="translate(0, 185)">
+      <text x="0" y="-8" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#64748B">TECHNOLOGIES</text>
+      <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#CBD5E1">
+        React.js • Framer Motion • Modern CSS3 • Responsive Design • Netlify
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Visual: Motion Waveform & Responsive Framing -->
+  <g transform="translate(375, 48)">
+    <rect width="230" height="184" rx="8" fill="#0D1322" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Mini Header -->
+    <text x="14" y="22" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#94A3B8">PHYSICS-BASED MOTION CURVE</text>
+    <circle cx="212" cy="18" r="3" fill="#10B981"/>
+
+    <!-- Dynamic Motion S-Curve -->
+    <path d="M 15 110 C 65 30, 95 160, 155 80 S 200 40, 215 95" fill="none" stroke="#10B981" stroke-width="2.5"/>
+    <circle cx="155" cy="80" r="4.5" fill="#00F2FE"/>
+    <circle cx="65" cy="50" r="3" fill="#34D399" opacity="0.6"/>
+
+    <!-- Keyframe Reference Grid -->
+    <line x1="15" y1="130" x2="215" y2="130" stroke="#1E293B" stroke-width="1"/>
+    <text x="15" y="150" font-family="'SF Mono', Consolas, monospace" font-size="8.5" fill="#64748B">EASING: SPRING(stiffness: 120)</text>
+    <text x="15" y="166" font-family="'SF Mono', Consolas, monospace" font-size="8.5" fill="#38BDF8">DEMO: virtualenvi.netlify.app</text>
+  </g>
+</svg>

@@ -1,87 +1,122 @@
-# Shashank Dimri
+<p align="center">
+  <img src="assets/graphics/profile/hero-banner.svg" alt="Shashank Dimri - Software Engineer Portfolio Banner" width="100%"/>
+</p>
 
-**Software Engineer | Backend, Full-Stack & Applied Machine Learning**  
-*Building robust systems, modular backend services, and intelligent data-driven applications.*
+<p align="center">
+  <a href="https://github.com/dimrishashank"><img src="https://img.shields.io/badge/GitHub-dimrishashank-181717?style=flat&logo=github" alt="GitHub Profile"/></a>
+  <a href="mailto:shashanklucky190@gmail.com"><img src="https://img.shields.io/badge/Email-shashanklucky190%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Focus-Backend_%7C_Full--Stack_%7C_Applied_AI-00F2FE?style=flat" alt="Primary Focus"/>
+  <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=flat" alt="Status"/>
+</p>
 
----
+<p align="center">
+  <img src="assets/graphics/profile/section-divider.svg" alt="Divider" width="80%"/>
+</p>
 
-## 👨‍💻 About Me
+## 👨‍💻 Engineering Profile
 
-I am a software engineer focused on building reliable, end-to-end software systems. My work spans full-stack web platforms, object-oriented desktop architectures, and applied machine learning models for computer vision and predictive risk analytics.
+I am a software engineer focused on building reliable, end-to-end software systems. My work bridges structured backend architectures, object-oriented systems design, and applied machine learning models for computer vision and predictive risk intelligence.
 
-- **Backend & Systems Architecture:** Designing modular codebases utilizing clean Data Access Object (DAO) patterns, relational database schemas (MySQL), and structured REST APIs.
-- **Applied AI & Machine Learning:** Implementing practical machine learning workflows—ranging from real-time pose estimation and biomechanics tracking (MediaPipe) to commodity risk forecasting with explainable AI (XGBoost, PyTorch, SHAP).
-- **Full-Stack Engineering:** Developing modern, responsive user interfaces using TypeScript, React, and Tailwind CSS backed by Python and Java service layers.
+- **Backend Architecture & Data Access:** Designing modular systems using clean Data Access Object (DAO) patterns, relational database persistence (MySQL), and structured RESTful service contracts.
+- **Applied Machine Learning & CV:** Implementing practical ML systems—from real-time biomechanical pose estimation and joint-angle tracking (MediaPipe) to supply-chain risk forecasting with explainable AI (XGBoost, PyTorch, SHAP).
+- **Modern Full-Stack Engineering:** Developing responsive, component-driven user interfaces using TypeScript, React 18, and Tailwind CSS backed by Python and Java application services.
 
-I am actively seeking **Software Engineering, Backend Developer, Full-Stack, and Applied AI/ML** internship and entry-level opportunities where I can contribute to production-grade engineering and scalable software.
+*Actively seeking Software Engineering, Backend Developer, Full-Stack, and Applied AI/ML internship and entry-level opportunities.*
 
----
+<p align="center">
+  <img src="assets/graphics/profile/section-divider.svg" alt="Divider" width="80%"/>
+</p>
 
-## 🚀 Featured Projects
+## 🚀 Featured Engineering Projects
 
-### 1. [AI-Powered Sports Performance & Analytics Platform](https://github.com/dimrishashank/Ai-Sports-platform)
-> **Full-Stack Computer Vision Platform for Biomechanical Movement Tracking**
+### 1. AI Sports Performance & Biomechanics Platform
+<p align="center">
+  <a href="https://github.com/dimrishashank/Ai-Sports-platform">
+    <img src="assets/graphics/showcase/card-ai-sports.svg" alt="AI Sports Analytics Platform Architecture & Pose Estimation" width="100%"/>
+  </a>
+</p>
 
-- **Problem:** Fitness evaluation and athletic coaching often rely on subjective visual review or manual counting, resulting in form degradation and unmeasured performance metrics.
-- **Solution:** Developed an end-to-end analytics platform that performs real-time body landmark detection, automated repetition counting, form verification, and joint-angle deviation scoring.
-- **Key Highlight:** Integrates MediaPipe computer vision pipelines with a Flask backend and a modern React 18 / TypeScript frontend with Bun and Tailwind CSS.
-- **Tech Stack:** `TypeScript` `React 18` `Python` `Flask` `MediaPipe` `MySQL` `Tailwind CSS`
-
----
-
-### 2. [Supply Chain Disruption Risk Intelligence](https://github.com/dimrishashank/Supply-Chain-Disruption-Prediction)
-> **Predictive Machine Learning & Explainable AI Risk Forecasting Framework**
-
-- **Problem:** Modern supply chains face critical bottlenecks and geopolitical shocks across essential raw materials without early, actionable warning indicators.
-- **Solution:** Formulated a predictive framework to forecast supply-chain disruptions across high-impact commodities (DRAM, Neon, Copper, Lithium) within a 4-week forecast horizon.
-- **Key Highlight:** Benchmarked XGBoost and PyTorch classifiers against longitudinal market indicators, incorporating SHAP feature attribution to provide transparent, interpretable risk signals.
-- **Tech Stack:** `Python` `XGBoost` `PyTorch` `SHAP` `Scikit-Learn` `Streamlit` `Pandas`
-
----
-
-### 3. [Multi-Tier Library Management System](https://github.com/dimrishashank/Library-Management-System)
-> **Enterprise-Pattern Desktop Management Application with Role-Based Access Control**
-
-- **Problem:** Institutional inventory systems require structured permission boundaries, transactional consistency, and auditable checkout lifecycles.
-- **Solution:** Built a multi-role desktop management system supporting Administrators, Librarians, and Students with dedicated operational dashboards, hold requests, and fine calculations.
-- **Key Highlight:** Architected using a strict Data Access Object (DAO) pattern to decouple Java Swing UI components from relational persistence in MySQL via JDBC.
-- **Tech Stack:** `Java` `Java Swing` `MySQL` `JDBC` `DAO Pattern` `OOP Architecture`
+- **Repository:** [dimrishashank/Ai-Sports-platform](https://github.com/dimrishashank/Ai-Sports-platform)
+- **Problem Statement:** Athletic performance evaluation often relies on subjective observation or manual repetition logging, resulting in undetected biomechanical deviations and unmeasured athletic fatigue.
+- **Engineered Solution:** Formulated an end-to-end analytics platform executing real-time body landmark detection, automated repetition counting, form deviation scoring, and joint-angle telemetry.
+- **Key Technical Highlight:** Couples a MediaPipe computer vision inference pipeline with a Flask REST API backend and a high-performance React 18 / TypeScript interface with Bun and Tailwind CSS.
+- **Core Stack:** `TypeScript` `React 18` `Python` `Flask` `MediaPipe` `MySQL` `Tailwind CSS`
 
 ---
 
-### 4. [VirtualEnvi - Interactive Web Platform](https://github.com/dimrishashank/virtualenvi)
-> **Mobile-First Responsive Web Application with Dynamic Motion UI**
+### 2. Supply Chain Disruption Risk Intelligence Framework
+<p align="center">
+  <a href="https://github.com/dimrishashank/Supply-Chain-Disruption-Prediction">
+    <img src="assets/graphics/showcase/card-supply-chain.svg" alt="Supply Chain Risk Intelligence Framework & SHAP Explainability" width="100%"/>
+  </a>
+</p>
 
-- **Problem:** Crafting performant, visually engaging web interfaces that retain smooth transitions across diverse viewport sizes.
-- **Solution:** Developed a responsive frontend platform featuring fluid layout animations, modular component composition, and optimized bundle delivery.
-- **Key Highlight:** Utilizes Framer Motion for declarative physics-based UI transitions, deployed with continuous delivery on Netlify.
-- **Tech Stack:** `React.js` `JavaScript` `Framer Motion` `CSS3` `Netlify`
-- **Live Demo:** [virtualenvi.netlify.app](https://virtualenvi.netlify.app)
+- **Repository:** [dimrishashank/Supply-Chain-Disruption-Prediction](https://github.com/dimrishashank/Supply-Chain-Disruption-Prediction)
+- **Problem Statement:** Modern electronics and clean-energy supply chains suffer from abrupt disruption across critical raw materials without sufficient early-warning telemetry.
+- **Engineered Solution:** Formulated a predictive risk framework forecasting commodity supply shocks across DRAM, Neon, Copper, and Lithium within an actionable 4-week forecast horizon.
+- **Key Technical Highlight:** Benchmarks XGBoost gradient-boosted trees against PyTorch neural classifiers, incorporating SHAP feature attribution to provide transparent, interpretable risk signals.
+- **Core Stack:** `Python` `XGBoost` `PyTorch` `SHAP` `Scikit-Learn` `Streamlit` `Pandas`
 
 ---
 
-## 🛠️ Technical Skills
+### 3. Smart Library Management System (Enterprise Architecture)
+<p align="center">
+  <a href="https://github.com/dimrishashank/Library-Management-System">
+    <img src="assets/graphics/showcase/card-library-system.svg" alt="Smart Library Management System 3-Tier DAO Architecture" width="100%"/>
+  </a>
+</p>
 
-| Domain | Technologies & Frameworks |
+- **Repository:** [dimrishashank/Library-Management-System](https://github.com/dimrishashank/Library-Management-System)
+- **Problem Statement:** Institutional resource systems require strict permission boundaries, transactional consistency, and auditable checkout lifecycles without SQL leakage into presentation code.
+- **Engineered Solution:** Built a multi-tier management desktop application supporting Administrators, Librarians, and Students with dedicated operational dashboards, hold requests, and fine calculations.
+- **Key Technical Highlight:** Implements strict 3-tier Data Access Object (DAO) patterns decoupling Java Swing UI components from relational persistence in MySQL via JDBC.
+- **Core Stack:** `Java` `Java Swing` `MySQL` `JDBC` `DAO Pattern` `OOP Architecture`
+
+---
+
+### 4. VirtualEnvi — Interactive Experience Platform
+<p align="center">
+  <a href="https://github.com/dimrishashank/virtualenvi">
+    <img src="assets/graphics/showcase/card-virtualenvi.svg" alt="VirtualEnvi Platform Reactive Motion Interface" width="100%"/>
+  </a>
+</p>
+
+- **Repository:** [dimrishashank/virtualenvi](https://github.com/dimrishashank/virtualenvi) | **Live Application:** [virtualenvi.netlify.app](https://virtualenvi.netlify.app)
+- **Problem Statement:** Engineering performant, visually engaging web interfaces that retain smooth transitions across diverse viewport sizes and bandwidth constraints.
+- **Engineered Solution:** Developed a mobile-first responsive frontend platform featuring fluid layout animations, modular component composition, and automated cloud delivery.
+- **Key Technical Highlight:** Leverages Framer Motion for declarative physics-based UI transitions and micro-interactions, continuously deployed on Netlify.
+- **Core Stack:** `React.js` `JavaScript` `Framer Motion` `CSS3` `Netlify`
+
+<p align="center">
+  <img src="assets/graphics/profile/section-divider.svg" alt="Divider" width="80%"/>
+</p>
+
+## 🛠️ Technical Competencies
+
+| Engineering Domain | Technologies &amp; Frameworks |
 |---|---|
-| **Languages** | Java, Python, TypeScript, JavaScript, SQL, HTML5/CSS3 |
-| **Backend & Architecture** | Flask, JDBC, RESTful APIs, DAO Pattern, Object-Oriented Design (OOP) |
-| **Machine Learning & CV** | PyTorch, XGBoost, MediaPipe, SHAP (Explainable AI), Scikit-Learn, Pandas, NumPy |
-| **Frontend Development** | React 18, Tailwind CSS, Framer Motion, Component-Driven Design |
-| **Databases & Tools** | MySQL, Git, GitHub, Bun, Netlify, Vite, Jupyter Notebooks |
+| **Programming Languages** | Java, Python, TypeScript, JavaScript, SQL, HTML5/CSS3 |
+| **Backend &amp; Systems** | Flask, JDBC, RESTful API Design, Data Access Object (DAO) Pattern, OOP |
+| **Machine Learning &amp; CV** | PyTorch, XGBoost, MediaPipe (Pose Estimation), SHAP (Explainable AI), Scikit-Learn |
+| **Frontend Engineering** | React 18, Tailwind CSS, Framer Motion, Component-Driven Composition |
+| **Data &amp; Developer Tools** | MySQL, Git, GitHub, Bun, Netlify, Vite, Jupyter Notebooks |
 
----
+<p align="center">
+  <img src="assets/graphics/profile/section-divider.svg" alt="Divider" width="80%"/>
+</p>
 
-## 📐 Engineering Principles
+## 📐 Core Engineering Principles
 
-- **Separation of Concerns:** Structuring systems into clear persistence (DAO), domain model, and interface layers for maintainability and testability.
-- **Explainability in AI:** Prioritizing interpretable machine learning through feature importance and SHAP analysis rather than black-box assumptions.
-- **Robust Typing & Clean Code:** Leveraging TypeScript and strongly typed Java domain models to prevent runtime regressions and ensure API contract consistency.
+- **Decoupled Architecture:** Enforcing clean separation between presentation, domain models, and persistence layers for long-term maintainability and testability.
+- **Model Explainability:** Treating interpretability (SHAP, feature attribution) as a first-class requirement in applied machine learning pipelines.
+- **Type Safety &amp; Contracts:** Utilizing TypeScript and strongly typed Java domain models to prevent runtime regressions and maintain explicit API boundaries.
 
----
+<p align="center">
+  <img src="assets/graphics/profile/section-divider.svg" alt="Divider" width="80%"/>
+</p>
 
-## 📬 Connect
+## 📬 Contact &amp; Collaboration
 
 - **GitHub:** [@dimrishashank](https://github.com/dimrishashank)
-- **Email:** [shashanklucky190@gmail.com](mailto:shashanklucky190@gmail.com)
-- **Location:** Open to Remote and On-Site Software Engineering Roles
+- **Direct Email:** [shashanklucky190@gmail.com](mailto:shashanklucky190@gmail.com)
+- **Location:** Open to Remote &amp; On-Site Software Engineering Roles

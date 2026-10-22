@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0D1322"/>
+      <stop offset="100%" stop-color="#070A12"/>
+    </linearGradient>
+    
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+    
+    <linearGradient id="violetPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7F00FF"/>
+      <stop offset="100%" stop-color="#E100FF"/>
+    </linearGradient>
+
+    <linearGradient id="nodeLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7F00FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Ambient Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowViolet" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.45"/>
+      <circle cx="40" cy="40" r="1" fill="#334155" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; fill: #F8FAFC; letter-spacing: 2px; }
+    .sub-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; fill: #94A3B8; letter-spacing: 1.5px; }
+    .mono-tag { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; font-size: 11px; fill: #00F2FE; letter-spacing: 1.5px; }
+    .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #E2E8F0; }
+    .code-text { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; fill: #64748B; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="340" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="340" rx="16" fill="url(#techGrid)"/>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="1050" cy="120" r="140" fill="#7F00FF" opacity="0.18" filter="url(#glowViolet)"/>
+  <circle cx="880" cy="220" r="110" fill="#00F2FE" opacity="0.14" filter="url(#glowCyan)"/>
+  <circle cx="120" cy="60" r="90" fill="#00F2FE" opacity="0.08" filter="url(#glowCyan)"/>
+
+  <!-- Outer Border Frame -->
+  <rect x="1" y="1" width="1198" height="338" rx="15" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#cyanPurple)"/>
+
+  <!-- ================= LEFT IDENTITY CONTENT ================= -->
+  
+  <!-- System Status Tag -->
+  <g transform="translate(60, 48)">
+    <rect x="0" y="0" width="150" height="22" rx="4" fill="#0F172A" stroke="#00F2FE" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="10" cy="11" r="3" fill="#10B981"/>
+    <circle cx="10" cy="11" r="6" fill="#10B981" opacity="0.3"/>
+    <text x="22" y="15" class="mono-tag" font-size="9.5" fill="#38BDF8">SYSTEM // VERIFIED</text>
+  </g>
+
+  <!-- Name Header -->
+  <text x="60" y="118" class="title-text" font-size="44">SHASHANK DIMRI</text>
+  
+  <!-- Title / Focus -->
+  <text x="60" y="150" class="sub-text" font-size="14.5">SOFTWARE ENGINEER  •  BACKEND, FULL-STACK &amp; APPLIED AI/ML</text>
+  
+  <!-- Bio Summary Line -->
+  <text x="60" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">
+    Architecting modular backend services, computer vision systems, and data-driven web platforms.
+  </text>
+
+  <!-- Capability Badges (Interactive Pills) -->
+  <g transform="translate(60, 215)">
+    <!-- Badge 1: Backend -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="30" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <circle cx="14" cy="15" r="4" fill="#38BDF8"/>
+      <text x="26" y="19" class="pill-text">Backend &amp; DAO Pattern</text>
+    </g>
+
+    <!-- Badge 2: AI/ML -->
+    <g transform="translate(192, 0)">
+      <rect width="195" height="30" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <circle cx="14" cy="15" r="4" fill="#A855F7"/>
+      <text x="26" y="19" class="pill-text">Computer Vision &amp; PyTorch</text>
+    </g>
+
+    <!-- Badge 3: Full Stack -->
+    <g transform="translate(399, 0)">
+      <rect width="175" height="30" rx="6" fill="#111827" stroke="#334155" stroke-width="1"/>
+      <circle cx="14" cy="15" r="4" fill="#10B981"/>
+      <text x="26" y="19" class="pill-text">React 18 &amp; TypeScript</text>
+    </g>
+  </g>
+
+  <!-- Status Bar Footer -->
+  <g transform="translate(60, 280)">
+    <line x1="0" y1="0" x2="575" y2="0" stroke="#1E293B" stroke-width="1"/>
+    <text x="0" y="20" class="code-text">STACK: Java (OOP/DAO) • Python (PyTorch, XGBoost, Flask) • TypeScript • React • MySQL</text>
+  </g>
+
+  <!-- ================= RIGHT COMPUTATIONAL GRAPHIC ================= -->
+  
+  <g transform="translate(850, 170)">
+    <!-- Concentric Technical Radar Rings -->
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#00F2FE" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Geometric Axis Lines -->
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#1E293B" stroke-width="1"/>
+    <line x1="0" y1="-140" x2="0" y2="140" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Neural & Data Pipeline Mesh Connections -->
+    <path d="M -80 -40 L -20 -70 L 60 -50 L 90 20 L 40 80 L -50 60 Z" fill="none" stroke="url(#nodeLine)" stroke-width="1.5"/>
+    <path d="M -20 -70 L 40 80 M -80 -40 L 90 20 M 60 -50 L -50 60" fill="none" stroke="#7F00FF" stroke-width="0.8" stroke-opacity="0.4"/>
+
+    <!-- Interconnected Network Nodes -->
+    <!-- Node A: CV / Input -->
+    <g transform="translate(-80, -40)">
+      <circle r="12" fill="#0F172A" stroke="#00F2FE" stroke-width="2"/>
+      <circle r="4" fill="#00F2FE"/>
+      <text x="-32" y="-16" class="code-text" fill="#38BDF8">CV.VISION</text>
+    </g>
+
+    <!-- Node B: Model / Inference -->
+    <g transform="translate(-20, -70)">
+      <circle r="8" fill="#0F172A" stroke="#A855F7" stroke-width="1.5"/>
+      <circle r="3" fill="#A855F7"/>
+    </g>
+
+    <!-- Node C: Backend / DAO -->
+    <g transform="translate(60, -50)">
+      <circle r="14" fill="#0F172A" stroke="#4FACFE" stroke-width="2"/>
+      <circle r="5" fill="#4FACFE"/>
+      <text x="18" y="-4" class="code-text" fill="#60A5FA">JAVA.DAO</text>
+    </g>
+
+    <!-- Node D: ML / Risk Model -->
+    <g transform="translate(90, 20)">
+      <circle r="11" fill="#0F172A" stroke="#E100FF" stroke-width="2"/>
+      <circle r="4" fill="#E100FF"/>
+      <text x="16" y="16" class="code-text" fill="#E879F9">XGB.SHAP</text>
+    </g>
+
+    <!-- Node E: Database / Persistence -->
+    <g transform="translate(40, 80)">
+      <circle r="13" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
+      <circle r="5" fill="#10B981"/>
+      <text x="18" y="16" class="code-text" fill="#34D399">SQL.DB</text>
+    </g>
+
+    <!-- Node F: Frontend / Client -->
+    <g transform="translate(-50, 60)">
+      <circle r="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+      <circle r="3.5" fill="#38BDF8"/>
+      <text x="-48" y="24" class="code-text" fill="#94A3B8">REACT.18</text>
+    </g>
+
+    <!-- Central Telemetry Core -->
+    <circle cx="0" cy="0" r="16" fill="#0B0F19" stroke="url(#cyanPurple)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#00F2FE"/>
+    
+    <!-- Orbiting Accent Pulse -->
+    <circle cx="42" cy="-42" r="3" fill="#00F2FE" opacity="0.8"/>
+    <circle cx="-65" cy="15" r="2" fill="#E100FF" opacity="0.6"/>
+  </g>
+
+  <!-- Bottom Right Version Metadata -->
+  <text x="1140" y="318" text-anchor="end" class="code-text" font-size="9" fill="#475569">DIMRISHASHANK // PORTFOLIO_V2.0</text>
+</svg>

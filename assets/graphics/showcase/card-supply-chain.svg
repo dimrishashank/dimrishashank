@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0F1D"/>
+      <stop offset="100%" stop-color="#121426"/>
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7F00FF"/>
+      <stop offset="100%" stop-color="#E100FF"/>
+    </linearGradient>
+    <linearGradient id="waveFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7F00FF" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="cardGrid2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="280" rx="12" fill="url(#cardBg2)"/>
+  <rect width="640" height="280" rx="12" fill="url(#cardGrid2)"/>
+  <rect x="1" y="1" width="638" height="278" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0" y="0" width="640" height="3" rx="1" fill="url(#purpleGradient)"/>
+
+  <!-- Left Information Column -->
+  <g transform="translate(36, 40)">
+    <rect width="138" height="20" rx="4" fill="#0F172A" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="8" cy="10" r="2.5" fill="#C084FC"/>
+    <text x="16" y="14" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#C084FC" letter-spacing="1">APPLIED AI &amp; ML</text>
+
+    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">
+      Supply Chain Risk AI
+    </text>
+
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94A3B8">
+      Predictive Early-Warning &amp; SHAP Interpretability
+    </text>
+
+    <!-- Key Metrics Pills -->
+    <g transform="translate(0, 102)">
+      <rect width="98" height="22" rx="4" fill="#1E293B"/>
+      <text x="8" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#E879F9">HORIZON: 4-WK</text>
+
+      <rect x="106" width="94" height="22" rx="4" fill="#1E293B"/>
+      <text x="114" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#38BDF8">XGBOOST/TORCH</text>
+
+      <rect x="208" width="80" height="22" rx="4" fill="#1E293B"/>
+      <text x="216" y="15" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#10B981">SHAP: EXP</text>
+    </g>
+
+    <!-- Stack Summary -->
+    <g transform="translate(0, 185)">
+      <text x="0" y="-8" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#64748B">TECHNOLOGIES</text>
+      <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#CBD5E1">
+        Python • XGBoost • PyTorch • SHAP • Scikit-Learn • Streamlit
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Visual: Forecast Wave & SHAP Feature Bars -->
+  <g transform="translate(370, 48)">
+    <rect width="234" height="184" rx="8" fill="#0D1322" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Mini Header -->
+    <text x="14" y="22" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#94A3B8">COMMODITY RISK INDEX</text>
+    <circle cx="216" cy="18" r="3" fill="#10B981"/>
+
+    <!-- Sparkline / Risk Probability Wave -->
+    <path d="M 14 85 Q 45 40, 80 75 T 140 45 T 190 90 T 220 35 L 220 115 L 14 115 Z" fill="url(#waveFill)"/>
+    <path d="M 14 85 Q 45 40, 80 75 T 140 45 T 190 90 T 220 35" fill="none" stroke="#C084FC" stroke-width="2"/>
+    <circle cx="220" cy="35" r="3.5" fill="#F43F5E"/>
+    <text x="175" y="30" font-family="'SF Mono', Consolas, monospace" font-size="8.5" fill="#F43F5E">RISK PEAK</text>
+
+    <!-- Divider -->
+    <line x1="14" y1="122" x2="220" y2="122" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- SHAP Attribution Feature Bars -->
+    <text x="14" y="136" font-family="'SF Mono', Consolas, monospace" font-size="8" fill="#64748B">SHAP IMPORTANCE ATTRIBUTION</text>
+    
+    <!-- Bar 1 -->
+    <text x="14" y="152" font-family="'SF Mono', Consolas, monospace" font-size="8" fill="#CBD5E1">DRAM Lead Variance</text>
+    <rect x="135" y="145" width="65" height="7" rx="2" fill="#E100FF"/>
+    
+    <!-- Bar 2 -->
+    <text x="14" y="168" font-family="'SF Mono', Consolas, monospace" font-size="8" fill="#CBD5E1">Lithium Export Ban</text>
+    <rect x="135" y="161" width="48" height="7" rx="2" fill="#38BDF8"/>
+  </g>
+</svg>
